@@ -22,7 +22,7 @@ class Help extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="A LUTA PELO LEO AINDA NÃO ACABOU" subtitle="CONTINUE AJUDANDO O LEO À VENCER O CÂNCER">
+        <Text title="A LUTA AINDA NÃO ACABOU" subtitle="CONTINUE AJUDANDO O LEO A VENCER O CÂNCER">
           <br />
           <span>
             <a {...styles.link} href="http://leokz.com/campanha/" target="_blank">
