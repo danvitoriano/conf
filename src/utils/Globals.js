@@ -8,8 +8,8 @@ const Globals = {
 
   date: {
     year: 2017,
-    full: '2º Semestre',
-    hour: '8:00am - 19:00pm',
+    full: '07.10.2017',
+    hour: 'Sábado, das 8h às 19h',
   },
 
   colors: {
