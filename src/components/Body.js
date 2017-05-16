@@ -6,6 +6,7 @@ import Sponsor from './Sponsor';
 import Topics from './Topics';
 import Contact from './Contact';
 import Meetup from './Meetup';
+import Help from './Help';
 
 const styles = {
   container: css({
@@ -25,6 +26,7 @@ class App extends PureComponent {
         <Topics />
         <Sponsor />
         <Meetup />
+        <Help />
         <Contact />
       </div>
     );
