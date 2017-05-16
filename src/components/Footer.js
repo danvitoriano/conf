@@ -53,7 +53,7 @@ class Footer extends PureComponent {
           <Item>
             <p>Branding: <a {...styles.link} href='https://informatica.sp.senai.br'>Escola SENAI Informática</a></p>
             <p>Criado com: <a {...styles.link} href='https://github.com/facebookincubator/create-react-app/'>create-react-app</a></p>
-            <p>React Confs no mundo: <a {...styles.link} href='https://facebook.gihtub.io/react/community/conferences.html'>Conferences React</a></p>
+            <p>React Confs no mundo: <a {...styles.link} href='https://facebook.github.io/react/community/conferences.html'>Conferences React</a></p>
           </Item>
         </div>
       </div>

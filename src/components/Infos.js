@@ -23,8 +23,8 @@ class Infos extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Item title="DATA" subtitle={Globals.date.year}>
-          <p>{Globals.date.full}</p>
+        <Item title="DATA" subtitle={Globals.date.full}>
+          <p>{Globals.date.hour}</p>
         </Item>
 
         <Item title="LOCAL" subtitle={Globals.location.city}>
