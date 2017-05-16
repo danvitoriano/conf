@@ -16,7 +16,7 @@ class Logo extends Component {
       this.setState(({ logoNumber }) => ({
         logoNumber: logoNumber === (logoPaths.length - 1) ? 0 : logoNumber + 1,
       }));
-    }, 300);
+    }, 400);
   };
 
   renderLogo = () => logoPaths[this.state.logoNumber];

@@ -29,7 +29,7 @@ npm install --global yarn
 Start project at [http://localhost:3000](http://localhost:3000):
 
 ```
-npm start
+yarn start
 ```
 
 ## Build
@@ -37,7 +37,7 @@ npm start
 To generate `/build` folder:
 
 ```
-yarn run build
+yarn build
 ```
 
 ## Deploy
@@ -45,7 +45,7 @@ yarn run build
 To publish at `gh-pages` branch:
 
 ```
-npm run deploy
+yarn deploy
 ```
 
 ## Issues

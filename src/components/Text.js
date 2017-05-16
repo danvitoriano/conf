@@ -6,8 +6,8 @@ import Globals from '../utils/Globals';
 const styles = {
   container: css({
     borderTop: `3px solid ${Globals.colors.primary}`,
-    width: '50%',
-    maxWidth: '50%',
+    width: '100%',
+    maxWidth: 1000,
     margin: '30px auto',
     '> h3': {
       color: Globals.colors.primary,

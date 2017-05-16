@@ -32,17 +32,18 @@ const styles = {
       margin: '5px',
     },
   }),
+
+  light: css({ color: 'white'})
 };
 
 class Item extends PureComponent {
   render() {
-    const { title, subtitle, children } = this.props;
+    const { title, subtitle, children, color } = this.props;
 
     return (
       <div {...styles.container}>
         <h3>{title}</h3>
-        <h2>{subtitle}</h2>
-
+        { color ? <h2 {...css({ color: color })}>{subtitle}</h2> : <h2>{subtitle}</h2> }
         {children}
       </div>
     );

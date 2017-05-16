@@ -17,16 +17,21 @@ const styles = {
     padding: '5px 10px',
     '> h3': {
       color: Globals.colors.primary,
-      margin: 0,
+      margin: '0 10px',
     },
     '> h4': {
       color: Globals.colors.gray,
-      margin: 0,
+      margin: '0 10px',
     },
     '> p': {
       color: Globals.colors.darken,
-      margin: 0,
+      margin: '0 10px',
     },
+    '@media(max-width: 720px)': {
+      width: '100%',
+      margin: '10px 0',
+      padding: '5px 0px',
+    }
   }),
 };
 

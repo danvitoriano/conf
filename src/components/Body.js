@@ -1,14 +1,11 @@
 import React, { PureComponent } from 'react';
 import { css } from 'glamor';
 
-import Logo from './Logo';
 import Pitch from './Pitch';
 import Sponsor from './Sponsor';
 import Topics from './Topics';
 import Contact from './Contact';
 import Meetup from './Meetup';
-import Footer from './Footer';
-import Infos from './Infos';
 
 const styles = {
   container: css({
@@ -24,14 +21,11 @@ class App extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Logo />
-        <Infos />
         <Pitch />
         <Topics />
         <Sponsor />
         <Meetup />
         <Contact />
-        <Footer />
       </div>
     );
   }
