@@ -11,9 +11,9 @@ const styles = {
   container: css({
     backgroundImage: `url(${BackgroundPattern})`,
     color: 'white',
-    width: '100vw',
+    width: '100%',
     height: '100vh',
-    minWidth: '100vw',
+    minWidth: '100%',
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
