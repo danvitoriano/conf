@@ -50,6 +50,9 @@ class Footer extends PureComponent {
       <div {...styles.container} {...styles.before}>
         <div {...styles.wrapper}>
           <Item title="#REACTCONFBR" subtitle='REACT BRASIL' color="white"/>
+          <Item title="SEJA UM PALESTRANTE">
+            <p><a {...styles.link} href='https://www.papercall.io/reactconfbr'>Call For Papers</a></p>
+          </Item>
           <Item>
             <p>Branding: <a {...styles.link} href='https://informatica.sp.senai.br'>Escola SENAI Informática</a></p>
             <p>Criado com: <a {...styles.link} href='https://github.com/facebookincubator/create-react-app/'>create-react-app</a></p>
