@@ -4,10 +4,10 @@
   "dependencies": {
     "enzyme": "^2.7.1",
     "gh-pages": "^0.12.0",
-    "glamor": "^2.20.24",
-    "react": "^15.4.2",
+    "glamor": "^2.20.25",
+    "react": "^15.5.4",
     "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^15.5.4",
     "react-snapshot": "^1.0.4",
     "react-svg-morph": "^0.1.10"
   },
@@ -15,7 +15,7 @@
     "husky": "^0.13.4",
     "lint-staged": "^3.6.1",
     "prettier": "^1.4.4",
-    "react-scripts": "0.9.4"
+    "react-scripts": "^1.0.7"
   },
   "homepage": "http://reactconfbr.com.br/",
   "lint-staged": {
