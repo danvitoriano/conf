@@ -20,7 +20,7 @@
   "homepage": "http://reactconfbr.com.br/",
   "lint-staged": {
     "*.js": [
-      "prettier --write",
+      "prettier --write --single-quote true --trailing-comma all --print-width 80",
       "git add"
     ]
   },
@@ -31,8 +31,6 @@
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
     "prepush": "yarn build && yarn deploy",
-    "prettier": "node ./scripts/prettier/index.js write-changed",
-    "prettier-all": "node ./scripts/prettier/index.js write",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   }
