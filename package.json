@@ -30,6 +30,9 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
+    "prepush": "yarn build && yarn deploy",
+    "prettier": "node ./scripts/prettier/index.js write-changed",
+    "prettier-all": "node ./scripts/prettier/index.js write",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   }
