@@ -15,7 +15,7 @@
     "husky": "^0.13.4",
     "lint-staged": "^3.6.1",
     "prettier": "^1.4.4",
-    "react-scripts": "^1.0.7"
+    "react-scripts": "1.0.7"
   },
   "homepage": "https://reactconfbr.com.br/",
   "lint-staged": {
