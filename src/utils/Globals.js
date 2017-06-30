@@ -33,6 +33,10 @@ const Globals = {
   topics: {
     title: 'O QUE QUEREMOS VER',
     text: 'Votação no GitHub propondo assuntos:'
+  },
+  tickets: {
+    title: '1 LOTE',
+    price: 'A consultar'
   }
 };
 

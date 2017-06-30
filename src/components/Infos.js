@@ -7,7 +7,7 @@ import Item from './Item';
 
 const styles = {
   container: css({
-    
+
     alignSelf: 'flex-end',
     display: 'flex',
     '@media(max-width: 720px)': {
@@ -16,7 +16,7 @@ const styles = {
       width:'80%',
       margin:'0 auto'
     }
-  }),
+  })
 };
 
 class Infos extends PureComponent {
