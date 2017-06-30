@@ -54,7 +54,7 @@ class Item extends PureComponent {
 
     return (
       <div {...styles.container}>
-        <a href=""  {...styles.link}>
+        <a href="https://www.sympla.com.br/react-conf-brasil-2017__161239" target="_blank"  {...styles.link}>
           <b>INSCREVA-SE</b>
         </a>
       </div>
