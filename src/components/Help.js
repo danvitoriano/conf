@@ -6,7 +6,7 @@ import Text from './Text';
 const styles = {
   container: css({
     alignSelf: 'flex-end',
-    background: '#FFFFFF',
+    background: '#F0F0F0',
     width: '100vw',
     display: 'flex',
     '@media(max-width: 720px)': {
@@ -22,15 +22,26 @@ class Help extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="A LUTA AINDA NÃO ACABOU" subtitle="CONTINUE AJUDANDO O LEO A VENCER O CÂNCER">
+        <Text
+          title="A LUTA AINDA NÃO ACABOU"
+          subtitle="CONTINUE AJUDANDO O LEO A VENCER O CÂNCER"
+        >
           <br />
           <span>
-            <a {...styles.link} href="http://leokz.com/campanha/" target="_blank">
+            <a
+              {...styles.link}
+              href="http://leokz.com/campanha/"
+              target="_blank"
+            >
               Clique e se envolva com esta causa
             </a>
           </span>
           <span>
-            <a {...styles.link} href="https://www.facebook.com/groups/ajudeleokz/" target="_blank">
+            <a
+              {...styles.link}
+              href="https://www.facebook.com/groups/ajudeleokz/"
+              target="_blank"
+            >
               Página do Facebook
             </a>
           </span>

@@ -2,16 +2,16 @@ import React, { PureComponent } from 'react';
 import { css } from 'glamor';
 
 import Globals from '../utils/Globals';
+import Text from './Text';
 
 const styles = {
   container: css({
     alignSelf: 'flex-end',
+    background: '#f0f0f0',
+    width: '100vw',
     display: 'flex',
     '@media(max-width: 720px)': {
-      alignSelf: 'flex-end',
-      display: 'block',
-      width: '80%',
-      margin: '0 auto',
+      alignSelf: 'auto',
     },
   }),
   link: css({
@@ -23,9 +23,6 @@ const styles = {
     borderColor: 'transparent',
     cursor: 'pointer',
     textDecoration: 'none',
-    position: 'absolute',
-    top: '35px',
-    right: '30px',
     letterSpacing: '1.5px',
     fontSize: '22px',
 
@@ -39,30 +36,27 @@ const styles = {
     '@media(max-width: 720px)': {
       display: 'block',
       textAlign: 'center',
-      position: 'relative',
-      marginBottom: '20px',
-      top: '0',
-      right: '0',
     },
   }),
 };
 
-class Item extends PureComponent {
+class TextBuyTickets extends PureComponent {
   render() {
-    const { title, subtitle, children, color } = this.props;
-
     return (
       <div {...styles.container}>
-        <a
-          href="https://www.sympla.com.br/react-conf-brasil-2017__161239"
-          target="_blank"
-          {...styles.link}
-        >
-          <b>INGRESSOS</b>
-        </a>
+        <Text title="COMPRE AGORA" subtitle="INGRESSOS">
+          <br />
+          <a
+            href="https://www.sympla.com.br/react-conf-brasil-2017__161239"
+            target="_blank"
+            {...styles.link}
+          >
+            <b>2º LOTE R$180,00</b>
+          </a>
+        </Text>
       </div>
     );
   }
 }
 
-export default Item;
+export default TextBuyTickets;

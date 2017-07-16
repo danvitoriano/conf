@@ -2,30 +2,28 @@ import React, { PureComponent } from 'react';
 import { css } from 'glamor';
 
 import Globals from '../utils/Globals';
+import Text from './Text';
 
 const styles = {
   container: css({
     alignSelf: 'flex-end',
+    background: '#FFFFFF',
+    width: '100vw',
     display: 'flex',
     '@media(max-width: 720px)': {
-      alignSelf: 'flex-end',
-      display: 'block',
-      width: '80%',
-      margin: '0 auto',
+      alignSelf: 'auto',
     },
   }),
   link: css({
     color: Globals.colors.background,
     padding: '10px 22px',
-    background: Globals.colors.shout,
+    background: Globals.colors.primary,
     borderRadius: '4px',
     border: '1px solid',
     borderColor: 'transparent',
     cursor: 'pointer',
+    textTransform: 'lowercase',
     textDecoration: 'none',
-    position: 'absolute',
-    top: '35px',
-    right: '30px',
     letterSpacing: '1.5px',
     fontSize: '22px',
 
@@ -39,30 +37,27 @@ const styles = {
     '@media(max-width: 720px)': {
       display: 'block',
       textAlign: 'center',
-      position: 'relative',
-      marginBottom: '20px',
-      top: '0',
-      right: '0',
     },
   }),
 };
 
-class Item extends PureComponent {
+class TextSC4P extends PureComponent {
   render() {
-    const { title, subtitle, children, color } = this.props;
-
     return (
       <div {...styles.container}>
-        <a
-          href="https://www.sympla.com.br/react-conf-brasil-2017__161239"
-          target="_blank"
-          {...styles.link}
-        >
-          <b>INGRESSOS</b>
-        </a>
+        <Text title="CALL FOR PAPERS" subtitle="SEJA UM PALESTRANTE">
+          <br />
+          <a
+            href="https://www.papercall.io/reactconfbr"
+            target="_blank"
+            {...styles.link}
+          >
+            <b>papercall.io/reactconfbr</b>
+          </a>
+        </Text>
       </div>
     );
   }
 }
 
-export default Item;
+export default TextSC4P;

@@ -27,13 +27,21 @@ const styles = {
       color: Globals.colors.primary,
       letterSpacing: 2,
     },
+    '> strong': {
+      color: Globals.colors.darken,
+      letterSpacing: 2,
+    },
+    '> span': {
+      color: Globals.colors.primary,
+      letterSpacing: 2,
+    },
 
     '@media(max-width: 720px)': {
       margin: '5px',
     },
   }),
 
-  light: css({ color: 'white'})
+  light: css({ color: 'white' }),
 };
 
 class Item extends PureComponent {
@@ -43,7 +51,9 @@ class Item extends PureComponent {
     return (
       <div {...styles.container}>
         <h3>{title}</h3>
-        { color ? <h2 {...css({ color: color })}>{subtitle}</h2> : <h2>{subtitle}</h2> }
+        {color
+          ? <h2 {...css({ color: color })}>{subtitle}</h2>
+          : <h2>{subtitle}</h2>}
         {children}
       </div>
     );

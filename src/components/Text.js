@@ -26,13 +26,23 @@ const styles = {
     },
     '> p': {
       color: Globals.colors.darken,
-      fontSize:'20px'
+      fontSize: '20px',
     },
     '> span': {
       color: Globals.colors.darken,
-      fontSize:'20px',
+      fontSize: '20px',
       padding: '20px 20px 0 20px',
       display: 'inline-block',
+    },
+    '> p span': {
+      color: Globals.colors.darken,
+      fontSize: '14px',
+      color: Globals.colors.primary,
+      padding: '20px 20px 0 20px',
+      display: 'inline-block',
+    },
+    '> img': {
+      maxWidth: '100%',
     },
     '@media(max-width: 720px)': {
       width: '80%',
