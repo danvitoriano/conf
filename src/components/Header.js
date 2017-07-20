@@ -7,13 +7,19 @@ import Title from './Title';
 import Ticket from './Ticket';
 
 import BackgroundPattern from '../media/images/backgroundPattern.png';
+import monkey from '../media/images/monkey.png';
 
 const styles = {
   container: css({
-    backgroundImage: `url(${BackgroundPattern})`,
+    backgroundImage: `url(${BackgroundPattern}), url(${monkey})`,
+    backgroundRepeat: 'repeat, no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: '3%, contain',
     color: 'white',
     width: '100%',
+    height: '100vh',
     minWidth: '100%',
+    minHeight: '100%',
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
@@ -21,13 +27,12 @@ const styles = {
   }),
 };
 
-const Header = () => (
+const Header = () =>
   <div {...styles.container}>
     <Title />
-    <Logo />
+    {/* <Logo /> */}
     <Ticket />
     <Infos />
-  </div>
-);
+  </div>;
 
 export default Header;
