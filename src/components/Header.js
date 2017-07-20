@@ -25,12 +25,23 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'space-between',
   }),
+  h1: css({
+    alignSelf: 'flex-start',
+    maxWidth: 401,
+    paddingLeft: 30,
+    fontSize: 52,
+  }),
 };
 
 const Header = () =>
   <div {...styles.container}>
     <Title />
-    {/* <Logo /> */}
+    {/* <Logo />  */}
+    <h1 {...styles.h1}>
+      O CONHECIMENTO
+      NUNCA ESTEVE
+      TÃO PERTO.
+    </h1>
     <Ticket />
     <Infos />
   </div>;
