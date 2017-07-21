@@ -7,13 +7,12 @@ import Text from './Text';
 
 const styles = {
   container: css({
-    alignSelf: 'flex-end',
-    background: '#f0f0f0',
+    background: 'white',
     width: '100vw',
     display: 'flex',
     '@media(max-width: 720px)': {
       alignSelf: 'auto',
-    }
+    },
   }),
 };
 

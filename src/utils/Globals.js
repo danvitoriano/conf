@@ -13,7 +13,7 @@ const Globals = {
 
   colors: {
     background: '#090d25',
-    primary: '#61DAFB',
+    primary: '#00DBFF',
     darken: '#161616',
     gray: '#666666',
     white: '#FFFFFF',

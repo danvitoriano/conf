@@ -12,10 +12,12 @@ const styles = {
     '> h3': {
       color: Globals.colors.primary,
       margin: 0,
+      fontSize: 30,
       textTransform: 'uppercase',
     },
     '> h2': {
       margin: 0,
+      paddingTop: 20,
       color: Globals.colors.gray,
       textTransform: 'uppercase',
     },
@@ -27,6 +29,7 @@ const styles = {
     '> p': {
       color: Globals.colors.darken,
       fontSize: '20px',
+      margin: 0,
     },
     '> span': {
       color: Globals.colors.darken,
@@ -38,7 +41,7 @@ const styles = {
       color: Globals.colors.darken,
       fontSize: '14px',
       color: Globals.colors.primary,
-      padding: '20px 20px 0 20px',
+      padding: '0px 20px 0 20px',
       display: 'inline-block',
     },
     '> img': {
@@ -53,12 +56,15 @@ const styles = {
 
 class Text extends PureComponent {
   render() {
-    const { title, subtitle, children } = this.props;
+    const { title, subtitle, reverse, children } = this.props;
 
     return (
-      <div {...styles.container}>
-        <h3>{title}</h3>
-        <h2>{subtitle}</h2>
+      <div
+        {...styles.container}
+        style={{ borderTop: reverse && '3px solid white' }}
+      >
+        <h3 style={{ color: reverse && '#080C27' }}>{title}</h3>
+        <h2 style={{ color: reverse && 'white' }}>{subtitle}</h2>
 
         {children}
       </div>
