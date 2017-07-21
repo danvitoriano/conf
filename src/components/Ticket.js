@@ -47,7 +47,7 @@ const styles = {
   }),
 };
 
-class Item extends PureComponent {
+class Ticket extends PureComponent {
   render() {
     const { title, subtitle, children, color } = this.props;
 
@@ -65,4 +65,4 @@ class Item extends PureComponent {
   }
 }
 
-export default Item;
+export default Ticket;
