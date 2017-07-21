@@ -12,11 +12,13 @@ const styles = {
     '> h3': {
       color: Globals.colors.primary,
       margin: 0,
-      fontSize: 30,
+      marginTop: 10,
+      fontSize: 25,
       textTransform: 'uppercase',
     },
     '> h2': {
       margin: 0,
+      fontSize: 25,
       paddingTop: 20,
       color: Globals.colors.gray,
       textTransform: 'uppercase',
@@ -66,7 +68,7 @@ class Text extends PureComponent {
         <h3 style={{ color: reverse && '#080C27' }}>{title}</h3>
         <h2 style={{ color: reverse && 'white' }}>{subtitle}</h2>
 
-        {children}
+        {reverse ? <div style={{ color: 'white' }}>{children}</div> : children}
       </div>
     );
   }

@@ -28,8 +28,8 @@ class App extends PureComponent {
       <div {...styles.container}>
         <Pitch />
         <Topics />
-        <Venue />
         <Speakers />
+        <Venue />
         <BuyTickets />
         <C4P />
         <Sponsor />
