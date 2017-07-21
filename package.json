@@ -30,7 +30,6 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "prepush": "yarn build && yarn deploy",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   }
