@@ -40,7 +40,7 @@ const Header = () =>
     <h1 {...styles.h1}>
       O CONHECIMENTO
       NUNCA ESTEVE
-      TÃO PERTO.
+      <span>TÃO PERTO.</span>
     </h1>
     <Ticket />
     <Infos />
