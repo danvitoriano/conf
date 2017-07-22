@@ -65,3 +65,12 @@ Join us on [Slack React Brasil](http://react-brasil-slack.herokuapp.com/)
 Follow us on Twitter [@reactconfbr](http://twitter.com/reactconfbr)
 
 Follow us on Facebook [@reactconf](https://www.facebook.com/reactconf/)
+
+## Team
+
+### Core members
+
+[![Dan Vitoriano](https://avatars1.githubusercontent.com/u/3236750?s=64)](https://github.com/danvitoriano) | [![Ronaldo Lima](https://avatars0.githubusercontent.com/u/4389565?s=64)](https://github.com/ronal2do) | [![Rodrigo Oler](https://avatars1.githubusercontent.com/u/5496931?s=64)](https://github.com/rodrigooler) | [![Daniel Galvão](https://avatars2.githubusercontent.com/u/5161645?s=64)](https://github.com/danielGalvao) | [![Lucas Bento](https://avatars0.githubusercontent.com/u/6207220?s=64)](https://github.com/lucasbento)
+|---|---|---|---|---|---|---|
+| Dan Vitoriano | Ronaldo Lima | Rodrigo Oler | Daniel Galvão | Lucas Bento |
+| [@danvitoriano](https://github.com/danvitoriano) | [@ronal2do](https://github.com/ronal2do) | [@rodrigooler](https://github.com/rodrigooler) | [@danielGalvao](https://github.com/danielGalvao) | [@lucasbento](https://github.com/danielGalvao) |
