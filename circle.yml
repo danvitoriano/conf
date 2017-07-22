@@ -16,6 +16,11 @@ stages:
       - type: shell
         name: Build Page
         command: |
-          yarn install
-          yarn build
-          yarn deploy
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            yarn install
+            yarn build
+            yarn deploy
+          else
+            # Don't need to continue this build
+            exit 0
+          fi
