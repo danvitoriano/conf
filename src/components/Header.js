@@ -21,13 +21,12 @@ const styles = {
   }),
 };
 
-const Header = () => (
+const Header = () =>
   <div {...styles.container}>
     <Title />
     <Logo />
     <Ticket />
     <Infos />
-  </div>
-);
+  </div>;
 
 export default Header;

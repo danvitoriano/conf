@@ -9,12 +9,12 @@ class Logo extends Component {
 
   componentDidMount() {
     this.animateIcon();
-  };
+  }
 
   animateIcon = () => {
     setInterval(() => {
       this.setState(({ logoNumber }) => ({
-        logoNumber: logoNumber === (logoPaths.length - 1) ? 0 : logoNumber + 1,
+        logoNumber: logoNumber === logoPaths.length - 1 ? 0 : logoNumber + 1,
       }));
     }, 400);
   };
@@ -22,9 +22,7 @@ class Logo extends Component {
   renderLogo = () => logoPaths[this.state.logoNumber];
 
   render() {
-    return (
-      this.renderLogo()
-    );
+    return this.renderLogo();
   }
 }
 

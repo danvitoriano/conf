@@ -27,7 +27,6 @@ class TextContact extends PureComponent {
     return (
       <div {...styles.container}>
         <Text title="CONTATO" subtitle="Entre para a nossa comunidade">
-
           <span>
             <a
               title="slack"
@@ -228,7 +227,6 @@ class TextContact extends PureComponent {
               https://github.com/react-brasil/conf
             </a>
           </p>
-
         </Text>
       </div>
     );

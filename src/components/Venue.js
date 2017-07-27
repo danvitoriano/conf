@@ -22,9 +22,12 @@ class TextVenue extends PureComponent {
     return (
       <div {...styles.container}>
         <Text title="THE WORLD IS A STAGE" subtitle="LOCAL">
-          <p>{Globals.pitch.locale}</p>
           <p>
-            <strong>Teatro Augusta</strong><br />
+            {Globals.pitch.locale}
+          </p>
+          <p>
+            <strong>Teatro Augusta</strong>
+            <br />
             No coração de São Paulo, o histórico palco será a casa de
             apresentações únicas e inéditas.
           </p>

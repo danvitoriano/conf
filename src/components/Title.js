@@ -38,7 +38,7 @@ const styles = {
   }),
 };
 
-const Title = () => (
+const Title = () =>
   <div {...styles.header}>
     <h1 {...styles.title}>
       React
@@ -48,8 +48,9 @@ const Title = () => (
       <hr {...styles.hr} />
     </div>
 
-    <h5 {...styles.subtitle}>{Globals.location.country} {Globals.date.year}</h5>
-  </div>
-);
+    <h5 {...styles.subtitle}>
+      {Globals.location.country} {Globals.date.year}
+    </h5>
+  </div>;
 
 export default Title;

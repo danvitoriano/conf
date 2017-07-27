@@ -28,7 +28,8 @@ class TextSpeakers extends PureComponent {
             <b>Sibelius Seraphini</b> São Paulo, Brasil
           </p>
           <p>
-            REACT ********** <span>divulgação em breve</span><br />
+            REACT ********** <span>divulgação em breve</span>
+            <br />
             <b>******** ******</b> ********, Brasil
           </p>
         </Text>

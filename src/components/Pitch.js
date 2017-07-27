@@ -13,7 +13,7 @@ const styles = {
     display: 'flex',
     '@media(max-width: 720px)': {
       alignSelf: 'auto',
-    }
+    },
   }),
 };
 
@@ -22,7 +22,9 @@ class TextPitch extends PureComponent {
     return (
       <div {...styles.container}>
         <Text title="COMUNIDADE REACT BRASIL" subtitle="BLEEDING EDGE">
-          <p>{Globals.pitch.text}</p>
+          <p>
+            {Globals.pitch.text}
+          </p>
         </Text>
       </div>
     );

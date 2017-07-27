@@ -23,13 +23,20 @@ class Infos extends PureComponent {
     return (
       <div {...styles.container}>
         <Item title="DATA" subtitle={Globals.date.full}>
-          <p>{Globals.date.hour}</p>
+          <p>
+            {Globals.date.hour}
+          </p>
         </Item>
 
         <Item title="LOCAL" subtitle={Globals.location.city}>
           <p>
-            <strong>{Globals.location.locale}</strong><br />
-            <span>{Globals.location.address}</span>
+            <strong>
+              {Globals.location.locale}
+            </strong>
+            <br />
+            <span>
+              {Globals.location.address}
+            </span>
           </p>
         </Item>
       </div>
