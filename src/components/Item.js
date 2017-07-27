@@ -50,10 +50,16 @@ class Item extends PureComponent {
 
     return (
       <div {...styles.container}>
-        <h3>{title}</h3>
+        <h3>
+          {title}
+        </h3>
         {color
-          ? <h2 {...css({ color: color })}>{subtitle}</h2>
-          : <h2>{subtitle}</h2>}
+          ? <h2 {...css({ color: color })}>
+              {subtitle}
+            </h2>
+          : <h2>
+              {subtitle}
+            </h2>}
         {children}
       </div>
     );

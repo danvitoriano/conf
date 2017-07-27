@@ -22,15 +22,9 @@ class ActionButton extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Button
-          label="Early Birds"
-          pattern={ButtonPattern}
-        />
+        <Button label="Early Birds" pattern={ButtonPattern} />
 
-        <Button
-          label="Newsletter"
-          pattern={ButtonPattern}
-        />
+        <Button label="Newsletter" pattern={ButtonPattern} />
       </div>
     );
   }

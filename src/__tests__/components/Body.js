@@ -7,7 +7,6 @@ import Logo from '../../components/Logo';
 import ActionButton from '../../components/ActionButton';
 
 describe('<Body />', () => {
-
   const wrapper = shallow(<Body />);
 
   it('render Logo', () => {
@@ -17,5 +16,4 @@ describe('<Body />', () => {
   it('render ActionButton', () => {
     expect(wrapper.find(ActionButton)).toHaveLength(1); // passes
   });
-
 });

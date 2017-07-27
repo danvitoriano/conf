@@ -31,7 +31,7 @@ const styles = {
       width: '100%',
       margin: '10px 0',
       padding: '5px 0px',
-    }
+    },
   }),
 };
 
@@ -41,9 +41,15 @@ class Card extends PureComponent {
 
     return (
       <div {...styles.container}>
-        <h3>{topic}</h3>
-        <h4>{author}</h4>
-        <p>{votes}</p>
+        <h3>
+          {topic}
+        </h3>
+        <h4>
+          {author}
+        </h4>
+        <p>
+          {votes}
+        </p>
       </div>
     );
   }

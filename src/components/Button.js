@@ -16,7 +16,7 @@ const cont = css({
   backgroundColor: Globals.colors.primary,
   transition: Globals.transitions.primary,
 
-  ':hover' : {
+  ':hover': {
     backgroundColor: 'transparent',
     color: Globals.colors.primary,
   },
@@ -24,7 +24,7 @@ const cont = css({
   '@media(max-width: 720px)': {
     margin: '5px',
   },
-})
+});
 
 const background = css({
   padding: 10,
@@ -32,45 +32,52 @@ const background = css({
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   margin: '30px',
-})
+});
 
 const Input = css({
   background: 'transparent',
   fontSize: '1.5em',
-
-})
+});
 
 export default class Button extends PureComponent {
-
-  state = { active: false }
+  state = { active: false };
 
   toggleActive = () => {
-
     this.setState(prevState => ({
-      active: !prevState.active
+      active: !prevState.active,
     }));
-
-  }
+  };
 
   render() {
     const { label, pattern, newsletter } = this.props;
     const { active } = this.state;
 
-    return newsletter ? (
-      <div className={background} {...style({ ':hover' : { backgroundImage: `url('${pattern}')`}  })}>
-        <div className={cont} onClick={this.toggleActive}>
-          { active ?
-            <input type="email" className={Input} placeholder="Seu email aqui" /> :
-            <h2 > {label} </h2>
-          }
+    return newsletter
+      ? <div
+          className={background}
+          {...style({ ':hover': { backgroundImage: `url('${pattern}')` } })}
+        >
+          <div className={cont} onClick={this.toggleActive}>
+            {active
+              ? <input
+                  type="email"
+                  className={Input}
+                  placeholder="Seu email aqui"
+                />
+              : <h2>
+                  {' '}{label}{' '}
+                </h2>}
+          </div>
         </div>
-      </div>
-    ) : (
-      <div className={background} {...style({ ':hover' : { backgroundImage: `url('${pattern}')`}  })}>
-        <div className={cont}>
-          <h2>{label}</h2>
-        </div>
-      </div>
-    );
+      : <div
+          className={background}
+          {...style({ ':hover': { backgroundImage: `url('${pattern}')` } })}
+        >
+          <div className={cont}>
+            <h2>
+              {label}
+            </h2>
+          </div>
+        </div>;
   }
 }
