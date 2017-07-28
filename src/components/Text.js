@@ -35,9 +35,8 @@ const styles = {
       display: 'inline-block',
     },
     '> p span': {
-      fontSize: '14px',
+      fontSize: '26px',
       color: Globals.colors.primary,
-      padding: '20px 20px 0 20px',
       display: 'inline-block',
     },
     '> img': {

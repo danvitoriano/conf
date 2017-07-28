@@ -24,13 +24,24 @@ class TextSpeakers extends PureComponent {
       <div {...styles.container}>
         <Text title="APRESENTAÇÕES CONFIRMADAS" subtitle="PALESTRANTES">
           <p>
-            RELAY MODERN<br />
+            <span>RELAY MODERN</span>
+            <br />
             <b>Sibelius Seraphini</b> São Paulo, Brasil
           </p>
           <p>
-            REACT ********** <span>divulgação em breve</span>
+            <span>ISOMORPHIC REACT + REDUX APP</span>
             <br />
-            <b>******** ******</b> ********, Brasil
+            <b>Matheus Marsiglio</b> São Paulo, Brasil
+          </p>
+          <p>
+            <span>SCRATCHING REACT FIBER</span>
+            <br />
+            <b>Raphael Amorim</b> Rio de Janeiro, Brasil
+          </p>
+          <p>
+            <span>DIVULGAÇÃO EM BREVE</span>
+            <br />
+            <b>Fernando Daciuk</b> Curitiba, Brasil
           </p>
         </Text>
       </div>
