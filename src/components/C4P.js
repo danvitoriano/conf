@@ -50,6 +50,7 @@ class TextSC4P extends PureComponent {
           <a
             href="https://www.papercall.io/reactconfbr"
             target="_blank"
+            rel="noopener noreferrer"
             {...styles.link}
           >
             <b>papercall.io/reactconfbr</b>

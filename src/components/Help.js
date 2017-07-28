@@ -32,6 +32,7 @@ class Help extends PureComponent {
               {...styles.link}
               href="http://leokz.com/campanha/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Clique e se envolva com esta causa
             </a>
@@ -41,6 +42,7 @@ class Help extends PureComponent {
               {...styles.link}
               href="https://www.facebook.com/groups/ajudeleokz/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Página do Facebook
             </a>

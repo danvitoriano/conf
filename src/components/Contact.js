@@ -32,6 +32,7 @@ class TextContact extends PureComponent {
               title="slack"
               href="http://react-brasil-slack.herokuapp.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 id="slack"
@@ -65,6 +66,7 @@ class TextContact extends PureComponent {
             <a
               title="twitter"
               href="http://twitter.com/reactconfbr"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <svg
@@ -100,6 +102,7 @@ class TextContact extends PureComponent {
           <span>
             <a
               title="github"
+              rel="noopener noreferrer"
               href="https://github.com/react-brasil"
               target="_blank"
             >
@@ -196,6 +199,7 @@ class TextContact extends PureComponent {
           <span>
             <a
               title="facebook"
+              rel="noopener noreferrer"
               href="https://www.facebook.com/reactconf/"
               target="_blank"
             >

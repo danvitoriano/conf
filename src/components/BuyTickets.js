@@ -49,6 +49,7 @@ class TextBuyTickets extends PureComponent {
           <a
             href="https://www.sympla.com.br/react-conf-brasil-2017__161239"
             target="_blank"
+            rel="noopener noreferrer"
             {...styles.link}
           >
             <b>2º LOTE R$180,00</b>

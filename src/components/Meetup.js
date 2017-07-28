@@ -29,6 +29,7 @@ class TextMeetup extends PureComponent {
               {...styles.link}
               href="http://www.meetup.com/ReactJS-SP/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Meetup São Paulo/SP
             </a>
@@ -38,6 +39,7 @@ class TextMeetup extends PureComponent {
               {...styles.link}
               href="https://www.meetup.com/React-Campinas"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Meetup Campinas/SP
             </a>
@@ -47,6 +49,7 @@ class TextMeetup extends PureComponent {
               {...styles.link}
               href="https://www.meetup.com/React-Blumenau/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Meetup Blumenau/SC
             </a>
@@ -56,6 +59,7 @@ class TextMeetup extends PureComponent {
               {...styles.link}
               href="http://www.meetup.com/ReactJS-Floripa/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Meetup Florianópolis/SC
             </a>
@@ -65,6 +69,7 @@ class TextMeetup extends PureComponent {
               {...styles.link}
               href="https://www.meetup.com/ReactJS-CWB/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Meetup Curitiba/PR
             </a>

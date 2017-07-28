@@ -35,7 +35,6 @@ const styles = {
       display: 'inline-block',
     },
     '> p span': {
-      color: Globals.colors.darken,
       fontSize: '14px',
       color: Globals.colors.primary,
       padding: '20px 20px 0 20px',

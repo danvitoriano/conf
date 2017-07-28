@@ -30,6 +30,7 @@ class TextSponsor extends PureComponent {
             Acesse nosso Mídia Kit: <br />
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://docs.google.com/presentation/d/1eRD0uZ8RQVv4Xvoe8taeZvYX-VUFx8KDX7gbVWS0WEw/pub?start=false&loop=false&delayms=3000&slide=id.p"
               {...styles.link}
             >
