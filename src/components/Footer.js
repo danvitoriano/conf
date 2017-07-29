@@ -50,10 +50,14 @@ class Footer extends PureComponent {
       <div {...styles.container} {...styles.before}>
         <div {...styles.wrapper}>
           <Item title="#REACTCONFBR" subtitle="REACT BRASIL" color="white" />
-          <Item title="SEJA UM PALESTRANTE">
+          <Item title="COMPROMISSO">
             <p>
-              <a {...styles.link} href="https://www.papercall.io/reactconfbr">
-                Call For Papers
+              <a
+                {...styles.link}
+                href="http://www.reactconfbr.com.br/files/react_conf_brasil-codigo_de_conduta.pdf"
+                target="_blank"
+              >
+                Código de Conduta
               </a>
             </p>
           </Item>
