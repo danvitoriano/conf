@@ -56,6 +56,7 @@ class Footer extends PureComponent {
                 {...styles.link}
                 href="http://www.reactconfbr.com.br/files/react_conf_brasil-codigo_de_conduta.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Código de Conduta
               </a>
