@@ -5,9 +5,10 @@ import Text from './Text';
 
 const styles = {
   container: css({
-    alignSelf: 'flex-end',
-    background: '#F0F0F0',
-    width: '100vw',
+    alignItems: 'center',
+    // background: '#F0F0F0',
+    flexDirection: 'column',
+    width: '100%',
     display: 'flex',
     '@media(max-width: 720px)': {
       alignSelf: 'auto',
@@ -16,16 +17,28 @@ const styles = {
   link: css({
     color: '#666666',
   }),
+  avatar: css({
+    width: 250,
+  }),
+  wrap: css({
+    // maxWidth: 350,
+    display: 'flex',
+    alignItems: 'center',
+    flexDirection: 'column',
+  }),
 };
 
 class Help extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text
-          title="A LUTA AINDA NÃO ACABOU"
-          subtitle="CONTINUE AJUDANDO O LEO A VENCER O CÂNCER"
-        >
+        <div {...styles.wrap}>
+          <Text reverse title="AJUDE O LÉO A VENCAR O CÂNCER" />
+          <img
+            {...styles.avatar}
+            src="https://scontent.fcgh9-1.fna.fbcdn.net/v/t1.0-9/11693998_846853015397041_97338119441874214_n.jpg?oh=812f24f0ee63d8d8a0b4756b90078e3a&oe=5A371CBE"
+            alt=""
+          />
           <br />
           <span>
             <a
@@ -49,7 +62,7 @@ class Help extends PureComponent {
               Página do Facebook
             </a>
           </span>
-        </Text>
+        </div>
       </div>
     );
   }

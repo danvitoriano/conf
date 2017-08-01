@@ -8,9 +8,8 @@ import Sponsor from './Sponsor';
 import Topics from './Topics';
 import C4P from './C4P';
 import BuyTickets from './BuyTickets';
-import Contact from './Contact';
 import Meetup from './Meetup';
-import Help from './Help';
+import HelpAndContact from './HelpAndContact';
 
 const styles = {
   container: css({
@@ -31,11 +30,10 @@ class App extends PureComponent {
         <Speakers />
         <Venue />
         <BuyTickets />
-        <C4P />
         <Sponsor />
         <Meetup />
-        <Help />
-        <Contact />
+        <C4P />
+        <HelpAndContact />
       </div>
     );
   }
