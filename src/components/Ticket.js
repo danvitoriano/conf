@@ -49,14 +49,14 @@ const styles = {
 
 class Item extends PureComponent {
   render() {
-    const { title, subtitle, children, color } = this.props;
-
     return (
       <div {...styles.container}>
         <a
           href="https://www.sympla.com.br/react-conf-brasil-2017__161239"
           target="_blank"
           {...styles.link}
+          without
+          rel="noopener noreferrer"
         >
           <b>INGRESSOS</b>
         </a>

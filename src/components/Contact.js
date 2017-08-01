@@ -27,12 +27,13 @@ class TextContact extends PureComponent {
     return (
       <div {...styles.container}>
         <Text title="CONTATO" subtitle="Entre para a nossa comunidade">
-
           <span>
             <a
               title="slack"
               href="http://react-brasil-slack.herokuapp.com"
               target="_blank"
+              without
+              rel="noopener noreferrer"
             >
               <svg
                 id="slack"
@@ -67,6 +68,8 @@ class TextContact extends PureComponent {
               title="twitter"
               href="http://twitter.com/reactconfbr"
               target="_blank"
+              without
+              rel="noopener noreferrer"
             >
               <svg
                 id="twitter"
@@ -103,6 +106,8 @@ class TextContact extends PureComponent {
               title="github"
               href="https://github.com/react-brasil"
               target="_blank"
+              without
+              rel="noopener noreferrer"
             >
               <svg
                 id="github"
@@ -199,6 +204,8 @@ class TextContact extends PureComponent {
               title="facebook"
               href="https://www.facebook.com/reactconf/"
               target="_blank"
+              without
+              rel="noopener noreferrer"
             >
               <svg
                 id="facebook"
@@ -228,7 +235,6 @@ class TextContact extends PureComponent {
               https://github.com/react-brasil/conf
             </a>
           </p>
-
         </Text>
       </div>
     );

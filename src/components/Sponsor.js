@@ -32,6 +32,8 @@ class TextSponsor extends PureComponent {
               target="_blank"
               href="https://docs.google.com/presentation/d/1eRD0uZ8RQVv4Xvoe8taeZvYX-VUFx8KDX7gbVWS0WEw/pub?start=false&loop=false&delayms=3000&slide=id.p"
               {...styles.link}
+              without
+              rel="noopener noreferrer"
             >
               <b>Mídia Kit React Conf Brasil 2017</b>
             </a>

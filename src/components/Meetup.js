@@ -71,7 +71,13 @@ class TextMeetup extends PureComponent {
             {Cities.map(city => {
               return (
                 <span key={city.id}>
-                  <a {...styles.link} href={city.href} target="_blank">
+                  <a
+                    {...styles.link}
+                    href={city.href}
+                    target="_blank"
+                    without
+                    rel="noopener noreferrer"
+                  >
                     {city.name}
                   </a>
                 </span>

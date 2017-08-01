@@ -40,7 +40,6 @@ const styles = {
       display: 'inline-block',
     },
     '> p span': {
-      color: Globals.colors.darken,
       fontSize: '14px',
       color: Globals.colors.primary,
       padding: '0px 20px 0 20px',
@@ -65,10 +64,18 @@ class Text extends PureComponent {
         {...styles.container}
         style={{ borderTop: reverse && '3px solid white' }}
       >
-        <h3 style={{ color: reverse && '#080C27' }}>{title}</h3>
-        <h2 style={{ color: reverse && 'white' }}>{subtitle}</h2>
+        <h3 style={{ color: reverse && '#080C27' }}>
+          {title}
+        </h3>
+        <h2 style={{ color: reverse && 'white' }}>
+          {subtitle}
+        </h2>
 
-        {reverse ? <div style={{ color: 'white' }}>{children}</div> : children}
+        {reverse
+          ? <div style={{ color: 'white' }}>
+              {children}
+            </div>
+          : children}
       </div>
     );
   }
