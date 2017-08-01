@@ -27,8 +27,8 @@ class App extends PureComponent {
       <div {...styles.container}>
         <Pitch />
         <Topics />
-        <Speakers />
         <Venue />
+        <Speakers />
         <BuyTickets />
         <Sponsor />
         <Meetup />

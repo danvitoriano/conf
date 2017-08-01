@@ -2,19 +2,19 @@
   "name": "conf",
   "version": "0.2.0",
   "dependencies": {
-    "enzyme": "^2.7.1",
-    "gh-pages": "^0.12.0",
-    "glamor": "^2.20.25",
-    "react": "^15.6.0",
-    "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.6.0",
+    "enzyme": "^2.9.1",
+    "gh-pages": "^1.0.0",
+    "glamor": "^2.20.30",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
     "react-snapshot": "^1.0.4",
     "react-svg-morph": "^0.1.10"
   },
   "devDependencies": {
-    "husky": "^0.13.4",
-    "lint-staged": "^3.6.1",
-    "prettier": "^1.4.4",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3",
     "react-scripts": "1.0.7"
   },
   "homepage": "https://reactconfbr.com.br/",
@@ -30,8 +30,9 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "prepush": "yarn build && yarn deploy",
+    "prettier": "./node_modules/.bin/prettier --write --single-quote true --trailing-comma all --print-width 80 --write 'src/**/*.js'",
     "start": "react-scripts start",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "upg": "yarn upgrade-interactive"
   }
 }
