@@ -52,7 +52,7 @@ class TextBuyTickets extends PureComponent {
             rel="noopener noreferrer"
             {...styles.link}
           >
-            <b>3º LOTE - A PARTIR DE AGOSTO</b>
+            <b>3º LOTE R$250,00</b>
           </a>
         </Text>
       </div>
