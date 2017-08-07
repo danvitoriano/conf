@@ -39,7 +39,7 @@ class TextSpeakers extends PureComponent {
             <b>Raphael Amorim</b> Rio de Janeiro, Brasil
           </p>
           <p>
-            <span>DIVULGAÇÃO EM BREVE</span>
+            <span>THE MAGIC WORLD OF TESTS WITH JEST</span>
             <br />
             <b>Fernando Daciuk</b> Curitiba, Brasil
           </p>
