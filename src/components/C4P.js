@@ -15,7 +15,7 @@ const styles = {
     },
   }),
   link: css({
-    color: Globals.colors.background,
+    color: Globals.colors.shout,
     padding: '10px 22px',
     background: Globals.colors.primary,
     borderRadius: '4px',

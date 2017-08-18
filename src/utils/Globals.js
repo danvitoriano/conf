@@ -8,12 +8,12 @@ const Globals = {
   date: {
     year: 2017,
     full: '07.10.2017',
-    hour: 'Sábado, das 9h às 18h',
+    hour: 'Sábado, das 8h às 18h',
   },
 
   colors: {
     background: '#090d25',
-    primary: '#61DAFB',
+    primary: '#0000FF',
     darken: '#161616',
     gray: '#666666',
     white: '#FFFFFF',
