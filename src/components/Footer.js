@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { css, before } from 'glamor';
+import Globals from '../utils/Globals';
 
 import Item from './Item';
 
@@ -8,6 +9,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    background: Globals.colors.white,
     width: '100%',
     '@media(max-width: 720px)': {
       width: '100%',
@@ -28,7 +30,8 @@ const styles = {
   }),
 
   link: css({
-    color: '#ffffff',
+    background: Globals.colors.secondary,
+    color: Globals.colors.link,
   }),
 
   before: before({
@@ -49,7 +52,7 @@ class Footer extends PureComponent {
     return (
       <div {...styles.container} {...styles.before}>
         <div {...styles.wrapper}>
-          <Item title="#REACTCONFBR" subtitle="REACT BRASIL" color="white" />
+          <Item title="#REACTCONFBR" subtitle="REACT BRASIL" />
           <Item title="COMPROMISSO">
             <p>
               <a

@@ -3,6 +3,7 @@ const Globals = {
     city: 'São Paulo, Brasil',
     locale: 'Teatro Augusta',
     address: 'Rua Augusta, 943',
+    country: 'Brazil',
   },
 
   date: {
@@ -13,11 +14,18 @@ const Globals = {
 
   colors: {
     background: 'black',
-    primary: 'blue',
+    base: 'darkgray',
+    main: '#00DBFF',
+    primary: 'gray',
+    header: 'gray',
+    secondary: 'lightgray',
+    subheader: 'lightgray',
+    topic: 'darkgray',
     darken: 'darkgray',
     gray: 'gray',
     white: 'white',
     shout: 'yellow',
+    link: 'black',
   },
 
   fonts: {},

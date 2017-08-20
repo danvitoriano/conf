@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { css } from 'glamor';
+import Globals from '../utils/Globals';
 
 import Text from './Text';
 

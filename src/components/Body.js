@@ -29,12 +29,9 @@ class App extends PureComponent {
         <Pitch />
         <Venue />
         <Speakers />
-        <Topics />
         <BuyTickets />
-        <C4P />
         <Sponsor />
         <Meetup />
-        <Help />
         <Contact />
       </div>
     );

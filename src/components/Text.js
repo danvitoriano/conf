@@ -5,24 +5,28 @@ import Globals from '../utils/Globals';
 
 const styles = {
   container: css({
-    borderTop: `3px solid ${Globals.colors.primary}`,
+    // borderTop: `3px solid ${Globals.colors.primary}`,
     width: '100%',
     maxWidth: 1000,
-    margin: '30px auto',
-    '> h3': {
-      color: Globals.colors.primary,
-      margin: 0,
-      textTransform: 'uppercase',
-    },
+    margin: '20px auto',
+    minHeight: '100vh',
     '> h2': {
       margin: 0,
-      color: Globals.colors.gray,
-      textTransform: 'uppercase',
+      fontSize: 64,
+      color: Globals.colors.header,
+      fontWeight: 'lighter',
+      // textTransform: 'uppercase',
+    },
+    '> h3': {
+      color: Globals.colors.subheader,
+      fontSize: 48,
+      margin: 0,
+      // textTransform: 'uppercase',
     },
     '> h4': {
-      color: Globals.colors.darken,
+      color: Globals.colors.topic,
       margin: 0,
-      letterSpacing: 6,
+      fontSize: 32,
     },
     '> p': {
       color: Globals.colors.darken,
@@ -55,12 +59,12 @@ class Text extends PureComponent {
 
     return (
       <div {...styles.container}>
-        <h3>
-          {title}
-        </h3>
         <h2>
-          {subtitle}
+          {title}
         </h2>
+        <h3>
+          {subtitle}
+        </h3>
 
         {children}
       </div>

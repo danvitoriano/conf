@@ -1,12 +1,13 @@
 import React, { PureComponent } from 'react';
 import { css } from 'glamor';
+import Globals from '../utils/Globals';
 
 import Text from './Text';
 
 const styles = {
   container: css({
     alignSelf: 'flex-end',
-    background: '#F0F0F0',
+    background: Globals.colors.white,
     width: '100vw',
     display: 'flex',
     '@media(max-width: 720px)': {

@@ -16,7 +16,7 @@ const styles = {
     },
     '> h2': {
       margin: 0,
-      letterSpacing: 6,
+      letterSpacing: 2,
     },
     '> h4': {
       color: Globals.colors.darken,
