@@ -5,12 +5,12 @@ import Globals from '../utils/Globals';
 
 const styles = {
   container: css({
-    borderTop: `3px solid ${Globals.colors.primary}`,
+    borderTop: `3px solid ${Globals.colors.primaryLight}`,
     textAlign: 'left',
     margin: '30px',
     textTransform: 'uppercase',
     '> h3': {
-      color: Globals.colors.primary,
+      color: Globals.colors.primaryLight,
       margin: 0,
       letterSpacing: 2,
     },
@@ -24,7 +24,7 @@ const styles = {
       letterSpacing: 6,
     },
     '> p': {
-      color: Globals.colors.primary,
+      color: Globals.colors.primaryLight,
       letterSpacing: 2,
     },
     '> strong': {
@@ -32,7 +32,7 @@ const styles = {
       letterSpacing: 2,
     },
     '> span': {
-      color: Globals.colors.primary,
+      color: Globals.colors.primaryLight,
       letterSpacing: 2,
     },
 
