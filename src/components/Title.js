@@ -20,17 +20,17 @@ const styles = {
     marginLeft: 30,
   }),
   titleSpan: css({
-    color: Globals.colors.primary,
+    color: Globals.colors.primaryLight,
   }),
   hrContainer: css({
     width: 25,
     marginLeft: 30,
   }),
   hr: css({
-    borderColor: Globals.colors.primary,
+    borderColor: Globals.colors.primaryLight,
   }),
   subtitle: css({
-    color: Globals.colors.primary,
+    color: Globals.colors.primaryLight,
     textTransform: 'uppercase',
     fontSize: 17,
     margin: 0,

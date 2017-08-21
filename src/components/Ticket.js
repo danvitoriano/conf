@@ -32,8 +32,8 @@ const styles = {
     ':hover': {
       backgroundColor: Globals.colors.background,
       border: '1px solid',
-      borderColor: Globals.colors.primary,
-      color: Globals.colors.primary,
+      borderColor: Globals.colors.primaryLight,
+      color: Globals.colors.primaryLight,
     },
 
     '@media(max-width: 720px)': {
