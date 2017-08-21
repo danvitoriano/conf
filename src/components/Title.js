@@ -2,6 +2,7 @@ import React from 'react';
 import { css } from 'glamor';
 
 import Globals from '../utils/Globals';
+import iconFlagBr from '../media/icons/iconflagbrazil2.png';
 
 const styles = {
   header: css({
@@ -31,11 +32,14 @@ const styles = {
     borderColor: Globals.colors.primary,
   }),
   subtitle: css({
-    color: Globals.colors.primary,
+    color: Globals.colors.secondary,
     textTransform: 'uppercase',
-    fontSize: 24,
+    fontSize: 31,
     margin: 0,
     marginLeft: 30,
+  }),
+  iconflagbr: css({
+    marginRight: 10,
   }),
 };
 
@@ -46,9 +50,10 @@ const Title = () =>
       <span {...styles.titleSpan}>Conf</span>
     </h1>
 
-    <p {...styles.subtitle}>
+    <span {...styles.subtitle}>
+      <img src={iconFlagBr} {...styles.iconflagbr} />
       {Globals.location.country} {Globals.date.year}
-    </p>
+    </span>
   </div>;
 
 export default Title;
