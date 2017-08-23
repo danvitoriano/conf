@@ -24,9 +24,9 @@ class TextSpeakers extends PureComponent {
       <div {...styles.container}>
         <Text title="APRESENTAÇÕES CONFIRMADAS" subtitle="PALESTRANTES">
           <p>
-            <span>RELAY MODERN</span>
+            <span>FROM A LEGACY FRONT-END TO A REACT SPA</span>
             <br />
-            <b>Sibelius Seraphini</b> São Paulo, Brasil
+            <b>Kete Rufino, Christiano Milfont</b> Ceará, Brasil
           </p>
           <p>
             <span>ISOMORPHIC REACT + REDUX APP</span>
@@ -42,6 +42,11 @@ class TextSpeakers extends PureComponent {
             <span>THE MAGIC WORLD OF TESTS WITH JEST</span>
             <br />
             <b>Fernando Daciuk</b> Curitiba, Brasil
+          </p>
+          <p>
+            <span>RELAY MODERN</span>
+            <br />
+            <b>Sibelius Seraphini</b> São Paulo, Brasil
           </p>
         </Text>
       </div>
