@@ -26,6 +26,7 @@ class TextSponsor extends PureComponent {
           <p>
             <span style={{ fontWeight: 'bold' }}>Taller</span>,{' '}
             <span style={{ fontWeight: 'bold' }}>Dev Na Estrada</span>,{' '}
+            <span style={{ fontWeight: 'bold' }}>Fullcircle</span>,{' '}
             <span style={{ fontWeight: 'bold' }}>Codamos Club</span>
           </p>
           <p>
