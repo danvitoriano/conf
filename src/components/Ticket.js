@@ -15,12 +15,12 @@ const styles = {
     },
   }),
   link: css({
-    color: Globals.colors.background,
+    color: Globals.colors.base,
     padding: '10px 22px',
     background: Globals.colors.shout,
-    borderRadius: '4px',
-    border: '1px solid',
-    borderColor: 'transparent',
+    // borderRadius: '4px',
+    // border: '1px solid',
+    // borderColor: 'transparent',
     cursor: 'pointer',
     textDecoration: 'none',
     position: 'absolute',
@@ -31,8 +31,8 @@ const styles = {
 
     ':hover': {
       backgroundColor: Globals.colors.background,
-      border: '1px solid',
-      borderColor: Globals.colors.primary,
+      // border: '1px solid',
+      // borderColor: Globals.colors.primary,
       color: Globals.colors.primary,
     },
 

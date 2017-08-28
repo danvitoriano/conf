@@ -18,9 +18,9 @@ const styles = {
     color: Globals.colors.background,
     padding: '10px 22px',
     background: Globals.colors.shout,
-    borderRadius: '4px',
-    border: '1px solid',
-    borderColor: 'transparent',
+    // borderRadius: '4px',
+    // border: '1px solid',
+    // borderColor: 'transparent',
     cursor: 'pointer',
     textDecoration: 'none',
     letterSpacing: '1.5px',
@@ -28,8 +28,8 @@ const styles = {
 
     ':hover': {
       backgroundColor: Globals.colors.background,
-      border: '1px solid',
-      borderColor: Globals.colors.primary,
+      // border: '1px solid',
+      // borderColor: Globals.colors.primary,
       color: Globals.colors.primary,
     },
 

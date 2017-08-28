@@ -6,13 +6,15 @@ import Logo from './Logo';
 import Infos from './Infos';
 import Title from './Title';
 import Ticket from './Ticket';
+import VideoPlayer from './VideoPlayer';
 
 import BackgroundPattern from '../media/images/backgroundPattern.png';
+import VideoBackgroundLoop from '../media/video/background.webm';
 
 const styles = {
   container: css({
     // backgroundImage: `url(${BackgroundPattern})`,
-    background: Globals.colors.white,
+    background: Globals.colors.transparent,
     color: Globals.colors.primary,
     width: '100%',
     minWidth: '100%',
@@ -25,6 +27,7 @@ const styles = {
 
 const Header = () =>
   <div {...styles.container}>
+    <VideoPlayer />
     <Title />
     <Logo />
     <Ticket />

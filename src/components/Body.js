@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { css } from 'glamor';
+import Globals from '../utils/Globals';
 
 import Pitch from './Pitch';
 import Venue from './Venue';
@@ -15,6 +16,7 @@ import Help from './Help';
 const styles = {
   container: css({
     display: 'flex',
+    background: Globals.colors.background,
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',

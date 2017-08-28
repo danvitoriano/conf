@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from 'glamor';
 
 import Globals from '../utils/Globals';
-import iconFlagBr from '../media/icons/iconflagbrazil2.png';
+import iconFlagBr from '../media/icons/iconflagbrazil7.png';
 
 const styles = {
   header: css({
@@ -13,13 +13,14 @@ const styles = {
     textAlign: 'left',
   }),
   title: css({
-    color: Globals.colors.gray,
+    color: Globals.colors.white,
     margin: 0,
     textTransform: 'uppercase',
-    letterSpacing: 4,
+    letterSpacing: 3,
     // fontWeight: 'bold',
     marginLeft: 30,
-    fontSize: 72,
+    lineHeight: '1em',
+    fontSize: ' 2.827em ',
   }),
   titleSpan: css({
     color: Globals.colors.main,
@@ -32,14 +33,16 @@ const styles = {
     borderColor: Globals.colors.primary,
   }),
   subtitle: css({
-    color: Globals.colors.secondary,
-    textTransform: 'uppercase',
-    fontSize: 31,
+    color: Globals.colors.white,
+    // textTransform: 'uppercase',
+    fontSize: ' 1.414em ',
     margin: 0,
+    lineHeight: '1em',
     marginLeft: 30,
   }),
   iconflagbr: css({
     marginRight: 10,
+    width: 30,
   }),
 };
 
@@ -51,7 +54,7 @@ const Title = () =>
     </h1>
 
     <span {...styles.subtitle}>
-      <img src={iconFlagBr} {...styles.iconflagbr} />
+      {/* <img src={iconFlagBr} {...styles.iconflagbr} /> */}
       {Globals.location.country} {Globals.date.year}
     </span>
   </div>;

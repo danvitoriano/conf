@@ -5,35 +5,46 @@ import Globals from '../utils/Globals';
 
 const styles = {
   container: css({
-    borderTop: `3px solid ${Globals.colors.primary}`,
+    // borderTop: `3px solid ${Globals.colors.primary}`,
     textAlign: 'left',
     margin: '30px',
     textTransform: 'uppercase',
+    lineHeight: '1em',
     '> h3': {
-      color: Globals.colors.primary,
+      color: Globals.colors.white,
       margin: 0,
-      letterSpacing: 2,
+      letterSpacing: 1,
+      lineHeight: '1em',
     },
     '> h2': {
       margin: 0,
-      letterSpacing: 2,
+      color: Globals.colors.main,
+      letterSpacing: 1,
+      lineHeight: '1em',
     },
     '> h4': {
-      color: Globals.colors.darken,
+      color: Globals.colors.main,
       margin: 0,
+      lineHeight: '1em',
       letterSpacing: 6,
     },
     '> p': {
-      color: Globals.colors.primary,
+      color: Globals.colors.white,
       letterSpacing: 2,
+      margin: 0,
+      lineHeight: '1em',
     },
     '> strong': {
-      color: Globals.colors.darken,
+      color: Globals.colors.white,
       letterSpacing: 2,
+      margin: 0,
+      lineHeight: '1em',
     },
     '> span': {
-      color: Globals.colors.primary,
+      color: Globals.colors.white,
       letterSpacing: 2,
+      margin: 0,
+      lineHeight: '1em',
     },
 
     '@media(max-width: 720px)': {

@@ -14,7 +14,8 @@ const Globals = {
 
   colors: {
     background: 'black',
-    base: 'darkgray',
+    transparent: 'transparent',
+    base: '#444444',
     main: '#00DBFF',
     primary: 'gray',
     header: 'gray',
@@ -26,6 +27,7 @@ const Globals = {
     white: 'white',
     shout: 'yellow',
     link: 'black',
+    lightGray: '#EEE',
   },
 
   fonts: {},

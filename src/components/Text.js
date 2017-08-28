@@ -8,14 +8,17 @@ const styles = {
     // borderTop: `3px solid ${Globals.colors.primary}`,
     width: '100%',
     maxWidth: 1000,
-    margin: '20px auto',
-    minHeight: '100vh',
+    margin: '5em auto',
+    '> h1': {
+      fontSize: ' 55px ',
+    },
     '> h2': {
       margin: 0,
-      fontSize: 64,
+      // fontSize: ' 1.999em ',
+      fontSize: 34,
       color: Globals.colors.header,
-      fontWeight: 'lighter',
-      // textTransform: 'uppercase',
+      fontWeight: 'light',
+      textTransform: 'uppercase',
     },
     '> h3': {
       color: Globals.colors.subheader,
@@ -26,7 +29,14 @@ const styles = {
     '> h4': {
       color: Globals.colors.topic,
       margin: 0,
+      fontWeight: 'lighter',
       fontSize: 32,
+    },
+    '> h5': {
+      color: Globals.colors.topic,
+      margin: 0,
+      fontWeight: 'lighter',
+      fontSize: '1em',
     },
     '> p': {
       color: Globals.colors.darken,
@@ -59,12 +69,12 @@ class Text extends PureComponent {
 
     return (
       <div {...styles.container}>
+        <h5>
+          {subtitle}
+        </h5>
         <h2>
           {title}
         </h2>
-        <h3>
-          {subtitle}
-        </h3>
 
         {children}
       </div>
