@@ -23,7 +23,7 @@ class TextSponsor extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="APOIOS" subtitle="">
+        <Text title="SPONSORS" subtitle="">
           <p>
             <span style={{ fontWeight: 'bold' }}>Taller</span>,{' '}
             <span style={{ fontWeight: 'bold' }}>Dev Na Estrada</span>,{' '}

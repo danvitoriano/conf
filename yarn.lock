@@ -5208,6 +5208,10 @@ react-error-overlay@^1.0.7:
     settle-promise "1.0.0"
     source-map "0.5.6"
 
+react-html5video@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-html5video/-/react-html5video-2.3.0.tgz#e7de4d40aa1b1b0300b9f79c63b14566796da736"
+
 react-render-to-json@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/react-render-to-json/-/react-render-to-json-0.0.4.tgz#0db588e2952cea05a66a3390554c46c3ea74d006"
@@ -5274,6 +5278,10 @@ react-svg-morph@^0.1.10:
   dependencies:
     react-render-to-json "0.0.4"
     svgpath "^2.1.0"
+
+react-video-cover@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-video-cover/-/react-video-cover-1.1.0.tgz#312da272436bfa5301fa098af57cbdf565a8fe89"
 
 react@^15.3.0, react@^15.6.1:
   version "15.6.1"
