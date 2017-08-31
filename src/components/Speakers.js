@@ -22,21 +22,27 @@ const styles = {
     color: '#666666',
   }),
   name: css({
-    fontSize: 48,
+    fontSize: '1.999em',
+    // lineHeight: '2em',
     color: Globals.colors.primary,
-    margin: 0,
-    marginTop: 10,
+    // margin: 0,
+    fontWeight: 'light',
+    margin: '0.66em 0 0.15em 0',
     lineHeight: 1,
     // padding: '20px 0px',
   }),
   locale: css({
-    fontSize: 14,
-    margin: 0,
+    fontSize: '1em',
+    fontWeight: 'lighter',
+    margin: '0 0 0.33em 0',
+    // marginBottom: '0.33em',
   }),
   theme: css({
-    fontSize: 36,
-    color: Globals.colors.secondary,
-    margin: 0,
+    fontSize: '1.414em',
+    // margin: 0,
+    color: Globals.colors.subheader,
+    margin: '0 0 0.33em 0',
+    fontWeight: 'lighter',
   }),
   card: css({
     width: 300,
@@ -109,15 +115,15 @@ class TextSpeakers extends PureComponent {
                     height: 300,
                   })}
                 />
-                <h4 {...styles.name}>
+                <h3 {...styles.name}>
                   {speaker.name}
-                </h4>
-                <span {...styles.locale}>
+                </h3>
+                <p {...styles.locale}>
                   {speaker.origin}
-                </span>
-                <h5 {...styles.theme}>
+                </p>
+                <h4 {...styles.theme}>
                   {speaker.theme}
-                </h5>
+                </h4>
               </div>
             );
           })}

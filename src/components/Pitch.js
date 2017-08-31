@@ -35,7 +35,7 @@ class TextPitch extends PureComponent {
     return (
       <div {...styles.container}>
         <Text
-          title="Bleending Edge Web Development"
+          title="The Bleending Edge Web Development"
           subtitle="React Brazil Community"
         >
           <div {...styles.imgContainer}>

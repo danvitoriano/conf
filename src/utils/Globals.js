@@ -17,10 +17,10 @@ const Globals = {
     transparent: 'transparent',
     base: '#444444',
     main: '#00DBFF',
-    primary: 'gray',
+    primary: '#222',
     header: 'gray',
     secondary: 'lightgray',
-    subheader: 'lightgray',
+    subheader: '#444',
     topic: 'darkgray',
     darken: 'darkgray',
     gray: 'gray',
@@ -39,7 +39,7 @@ const Globals = {
   pitch: {
     title: 'COMUNIDADE REACT BRASIL',
     text:
-      'A primeira React Conf da América Latina é no Brasil. Inspirados nas conferências dos Estados Unidos e Europa, queremos reunir em um único dia o bleeding edge dos desenvolvedores e empresas de tecnologia, com um único propósito: move fast and forward.',
+      'A primeira conferência do ecossistema React da América Latina. Como nas conferências dos Estados Unidos e Europa, queremos reunir desenvolvedores, empresas e estudantes de tecnologia para compartilhar experiências no desenvolvimento de aplicações reativas.',
   },
   topics: {
     title: 'O QUE QUEREMOS VER',

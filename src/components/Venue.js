@@ -6,6 +6,16 @@ import Globals from '../utils/Globals';
 import imgAugusta from '../media/images/theater-augusta.png';
 import Text from './Text';
 
+const urlPhotos = {
+  folha: {
+    url:
+      'http://guia.folha.uol.com.br/teatro/sem-definicao/teatro-augusta-consolacao-724754030.shtml',
+  },
+  veja: {
+    url: 'https://vejasp.abril.com.br/estabelecimento/teatro-augusta/',
+  },
+};
+
 const styles = {
   container: css({
     alignSelf: 'flex-end',
@@ -23,20 +33,19 @@ class TextVenue extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="SAO PAULO AUGUSTA THEATER" subtitle="LOCAL">
+        <Text title="SAO PAULO, BRAZIL" subtitle="VENUE">
           <p>
             {Globals.pitch.locale}
           </p>
           <p>
             <br />
-            No coração de São Paulo, o histórico palco será a casa de
-            apresentações únicas e inéditas.
+            No coração de São Paulo, o histórico Teatro Augusta será o palco de
+            apresentações únicas.
           </p>
           <strong>
             Rua Augusta, 943 - Cerqueira César, São Paulo / SP - Brasil
           </strong>
           <img src={imgAugusta} alt="Teatro Augusta" title="Teatro Augusta" />
-          <a href="https://goo.gl/maps/CYJBVGHz3Nk">Google Maps</a>
         </Text>
       </div>
     );
