@@ -7,57 +7,59 @@ const styles = {
   container: css({
     // borderTop: `3px solid ${Globals.colors.primary}`,
     width: '100%',
+    fontWeight: 'lighter',
     maxWidth: 1000,
-    margin: '5em auto',
+    margin: '2em auto',
+    textAlign: 'center',
     '> h1': {
       fontSize: '3.998em',
-      margin: '0 0 0.33em 0',
+      margin: '1em',
     },
     '> h2': {
-      margin: '0 0 0.33em 0',
+      margin: '1em',
+      // fontWeight: 'lighter',
       fontSize: '2.827em',
-      color: Globals.colors.header,
-      fontWeight: 'light',
-      textTransform: 'uppercase',
+      // color: Globals.colors.header,
     },
     '> h3': {
-      color: Globals.colors.subheader,
+      fontWeight: 'lighter',
+      // color: Globals.colors.subheader,
       fontSize: '1.999em',
-      margin: '0 0 0.33em 0',
+      margin: '1em',
     },
     '> h4': {
       color: Globals.colors.topic,
-      margin: '0 0 0.33em 0',
+      margin: '1em',
       fontWeight: 'lighter',
       fontSize: '1.414em',
     },
     '> h5': {
       color: Globals.colors.topic,
-      margin: '0 0 0.33em 0',
+      margin: '1em',
       fontWeight: 'lighter',
       fontSize: '1em',
     },
     '> p': {
       // color: Globals.colors.primary,
-      fontSize: '20px',
+      // fontSize: '20px',
+      margin: '1em',
+      fontSize: '1em',
     },
     '> span': {
       color: Globals.colors.darken,
-      fontSize: '20px',
-      padding: '20px 20px 0 20px',
       display: 'inline-block',
+      margin: '1em',
+      fontSize: '1em',
     },
     '> p span': {
-      fontSize: '26px',
+      // fontSize: '26px',
+      fontSize: '1em',
       color: Globals.colors.primary,
       display: 'inline-block',
+      margin: '1em',
     },
     '> img': {
       maxWidth: '100%',
-    },
-    '@media(max-width: 720px)': {
-      width: '80%',
-      maxWidth: '80%',
     },
   }),
 };
@@ -68,13 +70,12 @@ class Text extends PureComponent {
 
     return (
       <div {...styles.container}>
-        <h3>
-          {subtitle}
-        </h3>
         <h2>
           {title}
         </h2>
-
+        <h3>
+          {subtitle}
+        </h3>
         {children}
       </div>
     );

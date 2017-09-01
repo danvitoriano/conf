@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from 'glamor';
 
 import Globals from '../utils/Globals';
-import iconFlagBr from '../media/icons/iconflagbrazil7.png';
+import iconFlagBr from '../media/icons/iconflagbrasil7.png';
 
 const styles = {
   header: css({

@@ -30,7 +30,10 @@ const styles = {
   }),
   card: css({
     width: 300,
-    height: 200,
+    height: 100,
+    '@media(min-width: 721px)': {
+      height: 200,
+    },
     // maxWidth: '100%',
     padding: '0',
     backgroundColor: Globals.colors.white,
@@ -118,7 +121,7 @@ class TextSponsor extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="SPONSORS" reverse />
+        <Text title="Patrocinadores" reverse />
         <div {...styles.cards}>
           {Sponsors.map(sponsor => {
             return (

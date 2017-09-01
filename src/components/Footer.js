@@ -6,30 +6,35 @@ import Item from './Item';
 
 const styles = {
   container: css({
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    background: Globals.colors.primary,
+    background: Globals.colors.background,
+    color: Globals.colors.white,
     width: '100%',
-    '@media(max-width: 720px)': {
+    flexDirection: 'column',
+    '@media(min-width: 721px)': {
       width: '100%',
-      flexDirection: 'column',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
     },
   }),
 
   wrapper: css({
-    display: 'flex',
-    width: '100%',
+    width: '80%',
     maxWidth: 1000,
+    display: 'flex',
+    flexDirection: 'column',
     justifyContent: 'space-between',
-    '@media(max-width: 720px)': {
+    '@media(min-width: 721px)': {
       width: '100%',
-      flexDirection: 'column',
+      justifyContent: 'space-between',
+      display: 'flex',
+      flexDirection: 'row',
     },
   }),
 
   link: css({
     color: Globals.colors.main,
+    textDecoration: 'none',
   }),
 
   before: before({

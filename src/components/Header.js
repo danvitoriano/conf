@@ -5,7 +5,7 @@ import Globals from '../utils/Globals';
 import Logo from './Logo';
 import Infos from './Infos';
 import Title from './Title';
-import Ticket from './Ticket';
+import Ingresso from './Ingresso';
 import VideoPlayer from './VideoPlayer';
 
 import BackgroundPattern from '../media/images/backgroundPattern.png';
@@ -30,7 +30,7 @@ const Header = () =>
     <VideoPlayer />
     <Title />
     <Logo />
-    <Ticket />
+    <Ingresso />
     <Infos />
   </div>;
 

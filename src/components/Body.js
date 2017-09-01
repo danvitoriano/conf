@@ -2,13 +2,13 @@ import React, { PureComponent } from 'react';
 import { css } from 'glamor';
 import Globals from '../utils/Globals';
 
-import Pitch from './Pitch';
+import Event from './Event';
 import Venue from './Venue';
 import Speakers from './Speakers';
 import Sponsor from './Sponsor';
 import Topics from './Topics';
 import C4P from './C4P';
-import BuyTickets from './BuyTickets';
+import BuyIngressos from './BuyIngressos';
 import Contact from './Contact';
 import Meetup from './Meetup';
 import Help from './Help';
@@ -28,10 +28,10 @@ class App extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Pitch />
+        <Event />
         <Venue />
         <Speakers />
-        <BuyTickets />
+        <BuyIngressos />
         <Sponsor />
         <Meetup />
         <Contact />

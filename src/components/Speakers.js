@@ -60,8 +60,9 @@ const styles = {
     alignItems: 'flex-start',
     justifyContent: 'space-around',
     width: '100%',
+    margin: '0 auto',
     maxWidth: 1000,
-    margin: '30px auto',
+    // margin: '30px auto',
   }),
 };
 
@@ -70,7 +71,7 @@ const Speakers = [
     id: 1,
     name: 'Sibelius Seraphini',
     theme: 'Relay Modern',
-    origin: 'São Paulo, Brazil',
+    origin: 'São Paulo, Brasil',
     github: 'https://github.com/sibelius',
     avatar: sibeliusImg,
   },
@@ -78,7 +79,7 @@ const Speakers = [
     id: 2,
     name: 'Matheus Marsiglio',
     theme: 'Isomorphic React + Redux App',
-    origin: 'São Paulo, Brazil',
+    origin: 'São Paulo, Brasil',
     github: 'https://github.com/mtmr0x',
     avatar: marsiglioImg,
   },
@@ -86,7 +87,7 @@ const Speakers = [
     id: 3,
     name: 'Raphael Amorim',
     theme: 'Scratching React Fiber',
-    origin: 'Rio de Janeiro, Brazil',
+    origin: 'Rio de Janeiro, Brasil',
     github: 'https://github.com/raphamorim',
     avatar: amorimImg,
   },
@@ -94,7 +95,7 @@ const Speakers = [
     id: 4,
     name: 'Fernando Daciuk',
     theme: 'The Magic World of Tests with Jest',
-    origin: 'Curitiba, Brazil',
+    origin: 'Curitiba, Brasil',
     github: 'https://github.com/fdaciuk',
     avatar: daciukImg,
   },
@@ -102,7 +103,7 @@ const Speakers = [
     id: 5,
     name: 'Kete Rufino',
     theme: 'From a legacy front end to a React SPA',
-    origin: 'Ceara, Brazil',
+    origin: 'Ceara, Brasil',
     github: 'https://github.com/ketemartinsrufino',
     avatar: keteImg,
   },
@@ -110,7 +111,7 @@ const Speakers = [
     id: 6,
     name: 'Christiano Milfont',
     theme: 'From a legacy front end to a React SPA',
-    origin: 'Ceara, Brazil',
+    origin: 'Ceara, Brasil',
     github: 'https://github.com/cmilfont',
     avatar: milfontImg,
   },
@@ -120,7 +121,7 @@ class TextSpeakers extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="SPEAKERS" reverse />
+        <Text title="Palestrantes" reverse />
         <div {...styles.cards}>
           {Speakers.map(speaker => {
             return (

@@ -7,7 +7,7 @@ import Text from './Text';
 const styles = {
   container: css({
     alignSelf: 'flex-end',
-    background: Globals.colors.secondary,
+    background: Globals.colors.main,
     width: '100vw',
     display: 'flex',
     '@media(max-width: 720px)': {
@@ -15,7 +15,10 @@ const styles = {
     },
   }),
   link: css({
-    color: '#666666',
+    color: Globals.colors.background,
+    display: 'block',
+    margin: '1em',
+    textDecoration: 'none',
   }),
 };
 
@@ -23,68 +26,62 @@ class TextMeetup extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="MEETUPS" subtitle="ENCONTROS AO REDOR DO BRASIL">
+        <Text title="Comunidade React Brasil">
           <br />
-          <span>
-            <a
-              {...styles.link}
-              href="http://www.meetup.com/ReactJS-SP/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meetup São Paulo/SP
-            </a>
-          </span>
-          <span>
-            <a
-              {...styles.link}
-              href="https://www.meetup.com/React-Campinas"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meetup Campinas/SP
-            </a>
-          </span>
-          <span>
-            <a
-              {...styles.link}
-              href="https://www.meetup.com/React-Blumenau/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meetup Blumenau/SC
-            </a>
-          </span>
-          <span>
-            <a
-              {...styles.link}
-              href="http://www.meetup.com/ReactJS-Floripa/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meetup Florianópolis/SC
-            </a>
-          </span>
-          <span>
-            <a
-              {...styles.link}
-              href="https://www.meetup.com/ReactJS-CWB/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meetup Curitiba/PR
-            </a>
-          </span>
-          <span>
-            <a
-              {...styles.link}
-              href="https://www.meetup.com/pt-BR/React-Rio-de-Janeiro/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meetup Rio de Janeiro/RJ
-            </a>
-          </span>
+
+          <a
+            {...styles.link}
+            href="http://www.meetup.com/ReactJS-SP/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetup São Paulo/SP
+          </a>
+
+          <a
+            {...styles.link}
+            href="https://www.meetup.com/React-Campinas"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetup Campinas/SP
+          </a>
+
+          <a
+            {...styles.link}
+            href="https://www.meetup.com/React-Blumenau/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetup Blumenau/SC
+          </a>
+
+          <a
+            {...styles.link}
+            href="http://www.meetup.com/ReactJS-Floripa/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetup Florianópolis/SC
+          </a>
+
+          <a
+            {...styles.link}
+            href="https://www.meetup.com/ReactJS-CWB/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetup Curitiba/PR
+          </a>
+
+          <a
+            {...styles.link}
+            href="https://www.meetup.com/pt-BR/React-Rio-de-Janeiro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetup Rio de Janeiro/RJ
+          </a>
         </Text>
       </div>
     );

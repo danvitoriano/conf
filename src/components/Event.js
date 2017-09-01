@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { css } from 'glamor';
 
 import Globals from '../utils/Globals';
-import imgPicth from '../media/images/reactconfbr-pitch.jpg';
+import imgEvent from '../media/images/reactconfbr-event.jpg';
 
 import Text from './Text';
 
@@ -17,15 +17,21 @@ const styles = {
     },
   }),
   imgContainer: css({
-    width: '50%',
+    width: '100%',
+    '> img': {
+      maxWidth: '100%',
+      margin: '0 auto',
+    },
     display: 'flex ',
-    float: 'left',
-    padding: '1em',
-    margin: '3em 0 0 0',
-    border: '1px solid lightgray',
+    margin: '0 auto',
+    // float: 'left',
+    // padding: '0',
+    // margin: '0',
+    // border: '1px solid lightgray',
   }),
   textContainer: css({
-    padding: '3em',
+    padding: '1em 0 1em 0',
+    width: '100%',
     display: 'flex',
   }),
 };
@@ -34,12 +40,13 @@ class TextPitch extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="THE EVENT" subtitle="The Bleending Edge Web Development">
+        <Text title="O evento">
+          <h3 lang="en">Bleending Edge Web Development</h3>
           <div {...styles.imgContainer}>
-            <img src={imgPicth} />
+            <img src={imgEvent} />
           </div>
           <p {...styles.textContainer}>
-            {Globals.pitch.text}
+            {Globals.event.text}
           </p>
         </Text>
       </div>

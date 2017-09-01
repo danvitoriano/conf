@@ -9,6 +9,8 @@ const styles = {
   container: css({
     alignSelf: 'flex-end',
     display: 'flex',
+    margin: '1em',
+    color: Globals.colors.white,
     '@media(max-width: 720px)': {
       alignSelf: 'flex-end',
       display: 'block',
@@ -24,18 +26,18 @@ class Infos extends PureComponent {
       <div {...styles.container}>
         <Item title=" " subtitle={Globals.date.full}>
           <p>
-            {Globals.date.hour}
+            {/*{Globals.date.hour}*/}
           </p>
         </Item>
 
         <Item title="" subtitle={Globals.location.city}>
           <p>
             <strong>
-              {Globals.location.locale}
+              {/*{Globals.location.locale}*/}
             </strong>
             <br />
             <span>
-              {Globals.location.address}
+              {/*{Globals.location.address}*/}
             </span>
           </p>
         </Item>

@@ -20,9 +20,12 @@ const styles = {
   container: css({
     alignSelf: 'flex-end',
     color: Globals.colors.white,
-    background: imgAugusta,
+    background: Globals.colors.base,
     width: '100vw',
     display: 'flex',
+    '> img': {
+      maxWidth: '100%',
+    },
     '@media(max-width: 720px)': {
       alignSelf: 'auto',
     },
@@ -33,17 +36,18 @@ class TextVenue extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="VENUE" subtitle="SAO PAULO, BRAZIL">
+        <Text title="Localização" subtitle="Teatro Augusta, São Paulo, Brasil">
           <p>
-            {Globals.pitch.locale}
+            {Globals.event.locale}
           </p>
           <p>
             <br />
             No coração de São Paulo, o histórico Teatro Augusta será o palco de
             apresentações únicas.
           </p>
-          <p>Rua Augusta, 943 - Cerqueira César, São Paulo / SP - Brasil</p>
           <img src={imgAugusta} alt="Teatro Augusta" title="Teatro Augusta" />
+          <small>Foto: Divulgação</small>
+          <p>Rua Augusta, 943 - Cerqueira César, São Paulo / SP - Brasil</p>
         </Text>
       </div>
     );

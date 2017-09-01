@@ -3,31 +3,33 @@ const Globals = {
     city: 'São Paulo, Brasil',
     locale: 'Teatro Augusta',
     address: 'Rua Augusta, 943',
-    country: 'Brazil',
+    country: 'Brasil',
   },
 
   date: {
     year: 2017,
-    full: '07.10.2017',
+    full: '07 Outubro 2017',
     hour: 'Sábado, das 8h às 18h',
   },
 
   colors: {
     background: 'black',
     transparent: 'transparent',
-    base: '#444444',
-    main: 'rgb(0, 169, 255)',
+    base: '#555555',
+    main: '#00A9FF',
+    midMain: '#003F5F',
+    lightMain: '#BFCAFE',
     primary: '#222',
-    header: 'gray',
-    secondary: 'lightgray',
-    subheader: '#444',
-    topic: 'darkgray',
-    darken: 'darkgray',
+    header: '#222',
+    secondary: '#555555',
+    subheader: '#555555',
+    topic: '#222',
+    darken: '#222',
     gray: 'gray',
     white: 'white',
     shout: 'rgb(255, 204, 0)',
     link: 'black',
-    lightGray: '#EEE',
+    lightGray: '#cccccc',
   },
 
   fonts: {},
@@ -36,7 +38,7 @@ const Globals = {
     primary: 'all 100ms linear',
   },
 
-  pitch: {
+  event: {
     title: 'COMUNIDADE REACT BRASIL',
     text:
       'A primeira conferência do ecossistema React da América Latina. Como nas conferências dos Estados Unidos e Europa, queremos reunir desenvolvedores, empresas e estudantes de tecnologia para compartilhar experiências no desenvolvimento de aplicações reativas.',
