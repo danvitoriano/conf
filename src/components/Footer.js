@@ -9,7 +9,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: Globals.colors.white,
+    background: Globals.colors.primary,
     width: '100%',
     '@media(max-width: 720px)': {
       width: '100%',
@@ -19,7 +19,6 @@ const styles = {
 
   wrapper: css({
     display: 'flex',
-    // alignItems: 'center',
     width: '100%',
     maxWidth: 1000,
     justifyContent: 'space-between',
@@ -30,8 +29,7 @@ const styles = {
   }),
 
   link: css({
-    background: Globals.colors.secondary,
-    color: Globals.colors.link,
+    color: Globals.colors.main,
   }),
 
   before: before({

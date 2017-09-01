@@ -15,13 +15,14 @@ const styles = {
     },
   }),
   link: css({
-    color: Globals.colors.base,
-    padding: '10px 22px',
-    background: Globals.colors.shout,
+    color: Globals.colors.white,
+    padding: '20px 30px',
+    background: Globals.colors.main,
     // borderRadius: '4px',
     // border: '1px solid',
     // borderColor: 'transparent',
     cursor: 'pointer',
+    fontWeight: 'lighter',
     textDecoration: 'none',
     position: 'absolute',
     top: '35px',
@@ -57,7 +58,7 @@ class Ticket extends PureComponent {
           rel="noopener noreferrer"
           {...styles.link}
         >
-          <b>INGRESSOS</b>
+          <b>TICKETS</b>
         </a>
       </div>
     );
