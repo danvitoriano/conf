@@ -22,13 +22,14 @@ const styles = {
     // border: '1px solid',
     // borderColor: 'transparent',
     cursor: 'pointer',
-    fontWeight: 'light',
+    fontWeight: 'lighter',
     textDecoration: 'none',
     position: 'absolute',
     top: '35px',
     right: '30px',
     letterSpacing: '1.5px',
     fontSize: '22px',
+    borderRadius: 10,
 
     ':hover': {
       backgroundColor: Globals.colors.white,

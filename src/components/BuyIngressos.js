@@ -26,6 +26,8 @@ const styles = {
     cursor: 'pointer',
     textDecoration: 'none',
     letterSpacing: '1.5px',
+    borderRadius: 10,
+    fontWeight: 'lighter',
     // fontSize: '22px',
 
     ':hover': {
